@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<!--Font Awesome-->
+    <script src="https://kit.fontawesome.com/780203cb59.js" crossorigin="anonymous"></script>
+
+
+    <link rel="stylesheet" href="./styles2.css">
+    <title>Testing</title>
+</head>
+
+<body>
+
+    <section class="">
+      <div class="section-center">
+          <article class="products-info">
+              <div class="section-title">
+                  <h3>
+                  Check Out
+                  </h3>
+                  <h2>
+                  Our products
+                  </h2>
+              </div>
+              <p class="product-text">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Porro saepe iure amet! Dolor ut totam quae dolore odit fuga ipsa!
+              </p>
+              <a href="#" class="btn">products-inventory
+              </a>
+          </article>
+          <article class="products-inventory clearfix">
+
+              <div class="product first">
+                  <img src="./1.jpg" alt="" class="product-img first-img">
+                  <h4 class="product-title">
+                  Schwarz
+                  </h4>
+                  <h4 class="product-price">
+                  1.99$
+                  </h4>
+              </div>
+
+              <div class="product">
+                  <img src="./2.jpg" alt="" class="product-img">
+                  <h4 class="product-title">
+                  Grün
+                  </h4>
+                  <h4 class="product-price">
+                  4.99$
+                  </h4>
+              </div>
+
+              <div class="product">
+                  <img src="./3.jpg" alt="" class="product-img">
+                  <h4 class="product-title">
+                  Schwarz
+                  </h4>
+                  <h4 class="product-price">
+                  9.99$
+                  </h4>
+              </div>
+
+          </article>
+      </div>
+
+    </section>
+</body>
+</html>

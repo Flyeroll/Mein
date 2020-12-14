@@ -1,0 +1,50 @@
+/* Importing Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&family=Satisfy&display=swap');
+
+
+img{
+    width: 100%;
+}
+
+.section-title {
+    margin-bottom:2rem;
+}
+
+/*Глобальный стиль для всей секции  */
+.section-center {
+    padding: 4rem 0;
+    width: 85vw;
+    margin: 0 auto;  /*Выравнивание всей конструкции по центру */
+    max-width: 1170px;
+    background: red;
+}
+
+.product-img {
+    border-radius: 2%;
+    margin-bottom: 2rem;
+    height: 17rem;
+    object-fit: cover;
+}
+
+.products {
+    clear: both;
+}
+.product {
+    margin-bottom: 2rem;
+}
+
+@media screen and (min-width:768px) {
+    .product {
+        float: left;
+        width: 50%;  
+        padding-left:2rem ;
+    }
+}
+
+.first {
+    background: green;
+}
+
+.first-img {
+    opacity: 0.2;
+}
